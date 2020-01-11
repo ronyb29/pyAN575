@@ -5,7 +5,7 @@ Converts between Microchip's an575 float format and IEEE-754.
 
 ## Usage
 ```python
-from pyAN575 import An575Float, Ieee754Float
+from pyAN575.__init__ import An575Float, Ieee754Float
 
 an_from_float = An575Float.from_float(3.141592618)
 print(float(an_from_float) == 3.141592618) # True
